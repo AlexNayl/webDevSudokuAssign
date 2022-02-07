@@ -6,8 +6,10 @@ table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
 	text-align: center;
+}
 
-
+.gameArea {
+	border: 3px solid black;
 }
 
 tr{
@@ -18,11 +20,12 @@ td {
 	width: 30px;
 }
 
-tr.divider td{
+.gameArea tr:nth-child(3n) td{
 	border-bottom: 3px solid black;
 }
 
-td.divider{
+
+.gameArea td:nth-child(3n){
 	border-right: 3px solid black;
 }
 

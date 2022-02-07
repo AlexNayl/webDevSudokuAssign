@@ -1,0 +1,18 @@
+#scoresTable{
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#scoresTable td{
+	padding: 20px;
+}
+
+#scoresTable th{
+	padding: 20px;
+	border-bottom: 3px solid black;
+}
